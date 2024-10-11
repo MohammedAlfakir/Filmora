@@ -13,13 +13,13 @@ const Navbar = () => {
   const { setContentType } = useContentStore();
 
   return (
-    <header className="max-w-full mx-auto flex flex-wrap items-center justify-between py-10 px-20 h-20">
+    <header className="max-w-full mx-auto flex flex-wrap items-center justify-between py-10 px-5 md:px-20 h-20">
       <div className="flex items-center gap-10 z-50">
         <Link to="/">
           <img
             src="/netflix-logo.png"
             alt="Netflix Logo"
-            className="w-30 sm:w-20"
+            className="w-20 sm:w-20"
           />
         </Link>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex gap-10 items-center z-50">
+      <div className="flex gap-5 md:gap-10 items-center z-50">
         <Link to={"/search"}>
           <Search className="size-6 cursor-pointer" />
         </Link>

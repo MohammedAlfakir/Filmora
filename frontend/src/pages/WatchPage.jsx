@@ -120,7 +120,7 @@ const WatchPage = () => {
         {/* movie details */}
         <div
           className="flex flex-col md:flex-row items-center justify-between gap-20 
-				max-w-6xl mx-auto mt-28"
+				max-w-6xl mx-auto mt-28 px-5"
         >
           <div className="mb-4 md:mb-0">
             <h2 className="text-5xl font-bold text-balance">
@@ -149,7 +149,7 @@ const WatchPage = () => {
 
         {/* Trailer */}
 
-        <div className="my-40 p-2 sm:px-10 md:px-32">
+        <div className="my-40 p-2 sm:px-10 md:px-32 px-5">
           {trailers.length > 0 && (
             <ReactPlayer
               controls={true}
@@ -173,7 +173,7 @@ const WatchPage = () => {
 
         {/*  */}
         {similarContent.length > 0 && (
-          <div className="mt-2 max-w-5xl mx-auto relative">
+          <div className="mt-2 max-w-5xl mx-auto relative px-2">
             <h3 className="text-3xl font-bold mb-4">Similar Movies/Tv Show</h3>
 
             <div
